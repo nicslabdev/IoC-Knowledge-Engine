@@ -1,10 +1,9 @@
 # IoC Knowledge Engine
-
-Este proyecto implementa una prueba de concepto (PoC) sobre el **Diseño de un algoritmo de generación de conocimiento** a partir de Indicadores de Compromiso (IoC) y demás datos de diferentes verticales.
-
+![Fondos_INCIBE](https://github.com/nicslabdev/IoC-Knowledge-Engine/raw/main/logo_fondos_incibe.png)
 **Estos resultados han sido (parcialmente) financiados por la Cátedra Internacional UMA 2023, la cual forma parte del Programa Global de Innovación en Seguridad para la promoción de Cátedras de Ciberseguridad en España financiado por la Unión Europea Fondos NextGeneration-EU, a través del Instituto Nacional de Ciberseguridad (INCIBE).**
 
 ### ¿En qué consiste?
+Este proyecto implementa una prueba de concepto (PoC) sobre el **Diseño de un algoritmo de generación de conocimiento** a partir de Indicadores de Compromiso (IoC) y demás datos de diferentes verticales.
 
 Se ha diseñado el algoritmo para que actúe como un motor analítico central. La idea es que se alimente continuamente de flujos de datos y telemetría (trazas de red, clasificaciones de malware impulsadas por diferentes módulos, y logs de honeypots como GenPot). A partir de ahí, cruza estos datos y, utilizando un enfoque **RAG (Retrieval-Augmented Generation)** con un LLM, genera conocimientos avanzados sobre los ataques.
 
